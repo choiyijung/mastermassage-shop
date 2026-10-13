@@ -354,3 +354,105 @@
   .haru-home footer{padding:28px 18px 98px !important}
   .haru-home .bottom-nav{display:grid !important}
 }
+
+/* SITE05 GOYANG GIMPO HUB START */
+.master-focus-hub{
+  margin:0 0 46px;
+  padding:42px;
+  border-radius:26px 10px 26px 10px;
+  background:
+    radial-gradient(circle at 82% 16%,rgba(224,195,148,.17),transparent 34%),
+    linear-gradient(135deg,#443b30 0%,#695a45 55%,#352f28 100%);
+  color:#fff;
+  box-shadow:0 24px 58px rgba(54,46,35,.17);
+}
+.master-focus-intro{
+  display:grid;
+  grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);
+  gap:40px;
+  align-items:end;
+  margin-bottom:28px;
+}
+.master-focus-intro small{
+  display:block;
+  margin-bottom:12px;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.17em;
+  color:#e3cfaa;
+}
+.master-focus-intro h2{
+  margin:0;
+  font-size:clamp(28px,3.2vw,44px);
+  line-height:1.15;
+  letter-spacing:-.045em;
+}
+.master-focus-intro h2 em{
+  color:#edd9b5;
+  font-style:normal;
+}
+.master-focus-intro p{
+  margin:0;
+  color:rgba(255,255,255,.76);
+  font-size:14px;
+  line-height:1.9;
+}
+.master-focus-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+.master-focus-card{
+  min-height:174px;
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  text-decoration:none;
+  color:#40382e;
+  background:#f1ede5;
+  border-radius:10px 22px 10px 22px;
+  transition:transform .2s ease,box-shadow .2s ease,background .2s ease;
+}
+.master-focus-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 30px rgba(0,0,0,.14);
+  background:#fff;
+}
+.master-focus-card small{
+  color:#86765f;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.15em;
+}
+.master-focus-card strong{
+  display:block;
+  margin:17px 0 8px;
+  font-size:22px;
+  line-height:1.25;
+  letter-spacing:-.035em;
+}
+.master-focus-card span{
+  display:block;
+  color:#746d63;
+  font-size:13px;
+  line-height:1.7;
+}
+.master-focus-card b{
+  margin-top:auto;
+  padding-top:18px;
+  color:#685640;
+  font-size:12px;
+}
+.master-main{background:#e9ddc8}
+.master-gimpo{background:#e5e8df}
+.master-wide{background:#eee4d3}
+.master-sub{background:#ece9e2}
+@media(max-width:700px){
+  .master-focus-hub{padding:26px 18px;margin-bottom:30px}
+  .master-focus-intro{grid-template-columns:1fr;gap:15px}
+  .master-focus-intro h2{font-size:29px}
+  .master-focus-grid{grid-template-columns:1fr;gap:8px}
+  .master-focus-card{min-height:150px;padding:19px}
+}
+/* SITE05 GOYANG GIMPO HUB END */
+
